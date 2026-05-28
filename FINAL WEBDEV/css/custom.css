@@ -1,0 +1,22 @@
+:root {
+  --bs-primary: #6f42c1;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085") center/cover;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
