@@ -16,7 +16,7 @@ Run this command inside project folder:
 php -S localhost:8000
 
 Then open:
-http://localhost:8000
+file:///C:/Users/admin/OneDrive/Documents/FINAL%20WEBDEV/index.html
 
 ## Live Site
 (Add your GitHub Pages link here)
